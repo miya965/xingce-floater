@@ -1,0 +1,32 @@
+build/
+DerivedData/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# 本机刷题服务位置，不提交
+practice-root.local
+
+# 第三方题库、分卷、本地学习记录
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-journal
+*.db.part-*
+tiku.db*
+materials.db*
+practice.db*
+tiku-index.db*
+kaogong-shuati/
+
+# 本地 Node 运行时
+node-runtime/
+
+# 密钥与环境文件
+.env
+.env.*
+*.pem
+credentials.json
+secrets.json

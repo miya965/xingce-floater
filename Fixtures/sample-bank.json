@@ -1,0 +1,321 @@
+{
+  "format": "xingce-bank-v1",
+  "license": {
+    "source": "original-sample",
+    "note": "原创示例题，作者允许导入本地练习。不是国考或省考真题，也不是第三方题库副本。",
+    "allows_import": true
+  },
+  "papers": [
+    {
+      "paper_id": "paper-national",
+      "source": "original-sample",
+      "year": 2026,
+      "province": "全国",
+      "exam_level": "国考",
+      "paper_name": "原创示例·国考卷",
+      "license_note": "原创示例，允许本地导入"
+    },
+    {
+      "paper_id": "paper-provincial",
+      "source": "original-sample",
+      "year": 2026,
+      "province": "示例省",
+      "exam_level": "省考",
+      "paper_name": "原创示例·省考卷",
+      "license_note": "原创示例，允许本地导入"
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "mat-shop",
+      "paper_id": "paper-provincial",
+      "source_material_id": "mat-shop",
+      "title": "示例商店销售额",
+      "body": "某商店 2024 年第一季度销售额为：1 月 200 万元，2 月 240 万元，3 月 300 万元。下图仅作示意，计算以正文数字为准。",
+      "images": [
+        { "relative_path": "images/bars.png", "media_type": "image/png" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "source_question_id": "sample-island",
+      "paper_id": "paper-provincial",
+      "subject": "常识判断",
+      "type_name": "地理常识",
+      "question_type": "single",
+      "stem": "我国第一大岛是哪一个？",
+      "options": [
+        { "key": "A", "text": "海南岛" },
+        { "key": "B", "text": "崇明岛" },
+        { "key": "C", "text": "台湾岛" },
+        { "key": "D", "text": "舟山岛" }
+      ],
+      "answer": ["C"],
+      "explanation": "台湾岛面积大于海南岛，是我国第一大岛。海南岛是第二大岛。崇明岛和舟山岛都小得多。"
+    },
+    {
+      "source_question_id": "sample-politics",
+      "paper_id": "paper-national",
+      "subject": "政治理论",
+      "type_name": "宪法",
+      "question_type": "single",
+      "stem": "我国现行宪法规定，国家机构实行的原则是：",
+      "options": [
+        { "key": "A", "text": "三权分立" },
+        { "key": "B", "text": "民主集中制" },
+        { "key": "C", "text": "联邦制" },
+        { "key": "D", "text": "议行合一" }
+      ],
+      "answer": ["B"],
+      "explanation": "现行宪法第三条规定，中华人民共和国的国家机构实行民主集中制的原则。三权分立和联邦制都不是该条表述。"
+    },
+    {
+      "source_question_id": "sample-verbal",
+      "paper_id": "paper-provincial",
+      "subject": "言语理解",
+      "type_name": "意图判断",
+      "question_type": "single",
+      "stem": "城市更新若只更换沿街立面，而不保留居民日常碰面的地方，街道会更整齐，邻里却更难互助。这段文字意在强调：",
+      "options": [
+        { "key": "A", "text": "沿街立面应当尽快全部换新" },
+        { "key": "B", "text": "城市更新要同时顾及设施和邻里关系" },
+        { "key": "C", "text": "邻里互助已经不适合现代城市" },
+        { "key": "D", "text": "街道整齐是更新的唯一目标" }
+      ],
+      "answer": ["B"],
+      "explanation": "文段先指出只换立面会削弱邻里互助，再把设施外观和日常关系对照起来。作者强调的是更新必须同时顾及这两方面。"
+    },
+    {
+      "source_question_id": "sample-logic",
+      "paper_id": "paper-provincial",
+      "subject": "判断推理",
+      "type_name": "逻辑判断",
+      "question_type": "single",
+      "stem": "所有参加周六培训的人都提交了作业。小周没有提交作业。由此可以推出：",
+      "options": [
+        { "key": "A", "text": "小周不是周六培训的参加人员" },
+        { "key": "B", "text": "小周一定参加了周日培训" },
+        { "key": "C", "text": "提交作业的人都参加了周六培训" },
+        { "key": "D", "text": "小周提交了别的课程作业" }
+      ],
+      "answer": ["A"],
+      "explanation": "由“参加周六培训则提交作业”可得逆否命题：没有提交作业的人没有参加周六培训。小周没有提交作业，所以他不是周六培训的参加人员。C 是逆命题，不能推出。"
+    },
+    {
+      "source_question_id": "sample-math",
+      "paper_id": "paper-provincial",
+      "subject": "数量关系",
+      "type_name": "工程问题",
+      "question_type": "single",
+      "stem": "一项工作，甲单独做需要 12 天，乙单独做需要 18 天。两人合作完成这项工作需要多少天？",
+      "options": [
+        { "key": "A", "text": "6 天" },
+        { "key": "B", "text": "7.2 天" },
+        { "key": "C", "text": "8 天" },
+        { "key": "D", "text": "15 天" }
+      ],
+      "answer": ["B"],
+      "explanation": "甲的效率是 1/12，乙的效率是 1/18，合作效率是 1/12 + 1/18 = 5/36。所需时间是 36/5 = 7.2 天。"
+    },
+    {
+      "source_question_id": "sample-multi",
+      "paper_id": "paper-provincial",
+      "subject": "常识判断",
+      "type_name": "文化常识",
+      "question_type": "multiple",
+      "stem": "下列著作中，属于“四书”的有：",
+      "options": [
+        { "key": "A", "text": "《大学》" },
+        { "key": "B", "text": "《孟子》" },
+        { "key": "C", "text": "《诗经》" },
+        { "key": "D", "text": "《中庸》" }
+      ],
+      "answer": ["A", "B", "D"],
+      "explanation": "四书是《大学》《中庸》《论语》《孟子》。《诗经》属于五经，不是四书，所以应选 A、B、D。"
+    },
+    {
+      "source_question_id": "sample-tf",
+      "paper_id": "paper-national",
+      "subject": "常识判断",
+      "type_name": "自然常识",
+      "question_type": "true_false",
+      "stem": "地球上昼夜交替的直接原因是地球自转。",
+      "options": [
+        { "key": "A", "text": "正确" },
+        { "key": "B", "text": "错误" }
+      ],
+      "answer": "正确",
+      "explanation": "地球自转造成同一地点面向太阳和背向太阳不断交替，因此出现昼夜。公转主要对应季节变化，不是昼夜交替的直接原因。"
+    },
+    {
+      "source_question_id": "sample-image",
+      "paper_id": "paper-provincial",
+      "subject": "判断推理",
+      "type_name": "图形计数",
+      "question_type": "single",
+      "stem": "下图中，黑色圆点共有几个？",
+      "options": [
+        { "key": "A", "text": "2" },
+        { "key": "B", "text": "3" },
+        { "key": "C", "text": "4" },
+        { "key": "D", "text": "5" }
+      ],
+      "answer": ["C"],
+      "explanation": "图中有四个分开的黑色圆点，分别位于左上、右上、左下、右下，所以是 4 个。",
+      "images": [
+        { "relative_path": "images/dots.png", "media_type": "image/png" }
+      ]
+    },
+    {
+      "source_question_id": "sample-da-1",
+      "paper_id": "paper-provincial",
+      "material_id": "mat-shop",
+      "subject": "资料分析",
+      "type_name": "简单计算",
+      "question_type": "single",
+      "stem": "该商店 2024 年第一季度销售额合计为：",
+      "options": [
+        { "key": "A", "text": "640 万元" },
+        { "key": "B", "text": "700 万元" },
+        { "key": "C", "text": "740 万元" },
+        { "key": "D", "text": "780 万元" }
+      ],
+      "answer": ["C"],
+      "explanation": "1 月、2 月、3 月分别为 200、240、300 万元，合计 200 + 240 + 300 = 740 万元。"
+    },
+    {
+      "source_question_id": "sample-da-2",
+      "paper_id": "paper-provincial",
+      "material_id": "mat-shop",
+      "subject": "资料分析",
+      "type_name": "增长率",
+      "question_type": "single",
+      "stem": "该商店 3 月销售额比 1 月增长：",
+      "options": [
+        { "key": "A", "text": "40%" },
+        { "key": "B", "text": "50%" },
+        { "key": "C", "text": "60%" },
+        { "key": "D", "text": "100%" }
+      ],
+      "answer": ["B"],
+      "explanation": "增长量是 300 - 200 = 100 万元，增长率是 100 / 200 = 50%。"
+    },
+    {
+      "source_question_id": "sample-island",
+      "paper_id": "paper-provincial",
+      "subject": "常识判断",
+      "type_name": "地理常识",
+      "question_type": "single",
+      "stem": "我国第一大岛是哪一个？",
+      "options": [
+        { "key": "A", "text": "海南岛" },
+        { "key": "B", "text": "崇明岛" },
+        { "key": "C", "text": "台湾岛" },
+        { "key": "D", "text": "舟山岛" }
+      ],
+      "answer": ["C"],
+      "explanation": "台湾岛面积大于海南岛，是我国第一大岛。海南岛是第二大岛。崇明岛和舟山岛都小得多。"
+    },
+    {
+      "source_question_id": "sample-island-stemcopy",
+      "paper_id": "paper-provincial",
+      "subject": "常识判断",
+      "type_name": "地理常识",
+      "question_type": "single",
+      "stem": "我国第一大岛是哪一个？  \n",
+      "options": [
+        { "key": "A", "text": "海南岛" },
+        { "key": "B", "text": "崇明岛" },
+        { "key": "C", "text": "台湾岛" },
+        { "key": "D", "text": "舟山岛" }
+      ],
+      "answer": ["A"],
+      "explanation": "这是一条用来检验题干去重的重复题，不应覆盖已经导入的题目。"
+    },
+    {
+      "source_question_id": "sample-missing-image",
+      "paper_id": "paper-provincial",
+      "subject": "判断推理",
+      "type_name": "图形计数",
+      "question_type": "single",
+      "stem": "下面这张并不存在的示意图里有几个方块？",
+      "options": [
+        { "key": "A", "text": "1" },
+        { "key": "B", "text": "2" },
+        { "key": "C", "text": "3" },
+        { "key": "D", "text": "4" }
+      ],
+      "answer": ["A"],
+      "explanation": "图片文件缺失，这道题应进入待复核，不能进入正常刷题队列。",
+      "images": [
+        { "relative_path": "images/does-not-exist.png", "media_type": "image/png" }
+      ]
+    },
+    {
+      "source_question_id": "sample-bad-answer",
+      "paper_id": "paper-provincial",
+      "subject": "数量关系",
+      "type_name": "数字推理",
+      "question_type": "single",
+      "stem": "示例数列 2、5、11 的下一项若按“乘 2 再加 1”应是多少？",
+      "options": [
+        { "key": "A", "text": "21" },
+        { "key": "B", "text": "22" },
+        { "key": "C", "text": "23" },
+        { "key": "D", "text": "24" }
+      ],
+      "answer": ["Z"],
+      "explanation": "答案字母不在选项中，应标记为答案格式错误并待复核。11 乘 2 再加 1 等于 23。"
+    },
+    {
+      "source_question_id": "sample-no-answer",
+      "paper_id": "paper-provincial",
+      "subject": "言语理解",
+      "type_name": "主旨概括",
+      "question_type": "single",
+      "stem": "把报告写得更长，并不等于把它写得更清楚。这段话主要批评什么？",
+      "options": [
+        { "key": "A", "text": "报告完全没有数据" },
+        { "key": "B", "text": "用篇幅代替表达清楚" },
+        { "key": "C", "text": "读者拒绝看结论" },
+        { "key": "D", "text": "所有形容词都应删除" }
+      ],
+      "answer": [],
+      "explanation": "这道题故意不给答案，用来验证缺失答案时不会进入刷题队列。"
+    },
+    {
+      "source_question_id": "sample-bad-explain",
+      "paper_id": "paper-provincial",
+      "subject": "政治理论",
+      "type_name": "宪法",
+      "question_type": "single",
+      "stem": "现行宪法是否规定了国家机构实行民主集中制？",
+      "options": [
+        { "key": "A", "text": "规定了" },
+        { "key": "B", "text": "没有规定" },
+        { "key": "C", "text": "只规定了联邦制" },
+        { "key": "D", "text": "只规定了三权分立" }
+      ],
+      "answer": ["A"],
+      "explanation": "暂无"
+    },
+    {
+      "source_question_id": "sample-missing-material",
+      "paper_id": "paper-provincial",
+      "material_id": "mat-does-not-exist",
+      "subject": "资料分析",
+      "type_name": "材料题",
+      "question_type": "single",
+      "stem": "根据不存在的材料，合计销售额是多少？",
+      "options": [
+        { "key": "A", "text": "100 万元" },
+        { "key": "B", "text": "200 万元" },
+        { "key": "C", "text": "300 万元" },
+        { "key": "D", "text": "400 万元" }
+      ],
+      "answer": ["A"],
+      "explanation": "材料编号不存在，应标记为材料缺失，不能当作正常资料分析题。"
+    }
+  ]
+}

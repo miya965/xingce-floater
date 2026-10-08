@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+		A3401EB00F554DE289BD071B /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF95A79D0943B4032AC9D79 /* PracticeSession.swift */; };
+		25A285A2E5EAB72E7CB3F2DA /* QuestionDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183474660E596D90A726043 /* QuestionDatabase.swift */; };
+		74B7291382507053A1B2D61D /* QuestionImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31E3EABBF4A7C0139AE058 /* QuestionImporter.swift */; };
+		6FA88EF0AFB6B468B277D92E /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8623BD30EEAA880DF89C667 /* QuestionModel.swift */; };
+		818E6A15ADEBAB994E52D5EC /* QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5309306A5B3AE21306F4DF5 /* QuestionRepository.swift */; };
+		18BD07AD9F9A4C75D2F62F27 /* SQLiteConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5AABB365861545DFB03C4 /* SQLiteConnection.swift */; };
+		6F273E1C96A84B3CCA3E266F /* SchemaSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34D460B8B279D590E934A4 /* SchemaSQL.swift */; };
+		FB6AC62C8C9F32D2B8C09A77 /* StemHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB67C0ADF0B006F756B808F /* StemHash.swift */; };
+		65E706809AC17FED8B874D53 /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0BFAFC604DE92DCEC79A64 /* AppEntry.swift */; };
+		A5DCE2E9B01EC6433CED4EED /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD94BD7E52340F54B1B6713 /* AppModel.swift */; };
+		974AEDEAEBF1F6E1CE1EDE07 /* FloatingWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EAFA61601C38D930213D7A /* FloatingWindowManager.swift */; };
+		12A9B09FBA9B1756E71B2CF8 /* QuestionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1624669CDE36B51C22AD76 /* QuestionCardView.swift */; };
+		ECA06398C39E4D2CC4138BCA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CF6D655D9609F6D6939D89 /* main.swift */; };
+		119BA75F1259C14648FDED65 /* sample-bank.json in Resources */ = {isa = PBXBuildFile; fileRef = 244F0709A19BB065113CF7E2 /* sample-bank.json */; };
+		05E5651CE2F810FE9B583644 /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 59D2EDC6BE78501E9B485AD4 /* dots.png */; };
+		5FFA0F3B2CA1C04BF52E479B /* bars.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9BB884B7D851F0DE76D3AD /* bars.png */; };
+
+		FEF95A79D0943B4032AC9D79 /* PracticeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSession.swift; sourceTree = "<group>"; };
+		0183474660E596D90A726043 /* QuestionDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDatabase.swift; sourceTree = "<group>"; };
+		8B31E3EABBF4A7C0139AE058 /* QuestionImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionImporter.swift; sourceTree = "<group>"; };
+		D8623BD30EEAA880DF89C667 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		E5309306A5B3AE21306F4DF5 /* QuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRepository.swift; sourceTree = "<group>"; };
+		06F5AABB365861545DFB03C4 /* SQLiteConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteConnection.swift; sourceTree = "<group>"; };
+		7C34D460B8B279D590E934A4 /* SchemaSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemaSQL.swift; sourceTree = "<group>"; };
+		7EB67C0ADF0B006F756B808F /* StemHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StemHash.swift; sourceTree = "<group>"; };
+		AE0BFAFC604DE92DCEC79A64 /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
+		ADD94BD7E52340F54B1B6713 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		91EAFA61601C38D930213D7A /* FloatingWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingWindowManager.swift; sourceTree = "<group>"; };
+		CF1624669CDE36B51C22AD76 /* QuestionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCardView.swift; sourceTree = "<group>"; };
+		244F0709A19BB065113CF7E2 /* sample-bank.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample-bank.json; sourceTree = "<group>"; };
+		59D2EDC6BE78501E9B485AD4 /* dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dots.png; sourceTree = "<group>"; };
+		FA9BB884B7D851F0DE76D3AD /* bars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bars.png; sourceTree = "<group>"; };
+		50CF6D655D9609F6D6939D89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		676E0FE7FD7120BF28AF6D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84337AD8D27FCD69AF2C4FC2 /* XingceFloater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XingceFloater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDED23FA58339F9273F6C84 /* xingce-tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "xingce-tests"; sourceTree = BUILT_PRODUCTS_DIR; };
+
+		AE8F24AAC170963C099EA700 /* XingceCore */ = {
+			isa = PBXGroup;
+			children = (
+				FEF95A79D0943B4032AC9D79 /* PracticeSession.swift */,
+				0183474660E596D90A726043 /* QuestionDatabase.swift */,
+				8B31E3EABBF4A7C0139AE058 /* QuestionImporter.swift */,
+				D8623BD30EEAA880DF89C667 /* QuestionModel.swift */,
+				E5309306A5B3AE21306F4DF5 /* QuestionRepository.swift */,
+				06F5AABB365861545DFB03C4 /* SQLiteConnection.swift */,
+				7C34D460B8B279D590E934A4 /* SchemaSQL.swift */,
+				7EB67C0ADF0B006F756B808F /* StemHash.swift */,
+			);
+			path = XingceCore;
+			sourceTree = "<group>";
+		};
+		1ED08DCC873ED7663D2B729C /* XingceApp */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BFAFC604DE92DCEC79A64 /* AppEntry.swift */,
+				ADD94BD7E52340F54B1B6713 /* AppModel.swift */,
+				91EAFA61601C38D930213D7A /* FloatingWindowManager.swift */,
+				CF1624669CDE36B51C22AD76 /* QuestionCardView.swift */,
+				676E0FE7FD7120BF28AF6D74 /* Info.plist */,
+			);
+			path = XingceApp;
+			sourceTree = "<group>";
+		};
+		79087709A77D7A0931438501 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				59D2EDC6BE78501E9B485AD4 /* dots.png */,
+				FA9BB884B7D851F0DE76D3AD /* bars.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		6836E61C95D1697C318F790C /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				244F0709A19BB065113CF7E2 /* sample-bank.json */,
+				79087709A77D7A0931438501 /* images */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		74C0354F987B4FC0FDE2C044 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50CF6D655D9609F6D6939D89 /* main.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		420CFB359C2A33DC60BFB328 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F24AAC170963C099EA700 /* XingceCore */,
+				1ED08DCC873ED7663D2B729C /* XingceApp */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2F3A6B1E78F896718625FF06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84337AD8D27FCD69AF2C4FC2 /* XingceFloater.app */,
+				DFDED23FA58339F9273F6C84 /* xingce-tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+
+		B9340614599AB78F485950C7 = {
+			isa = PBXGroup;
+			children = (
+				420CFB359C2A33DC60BFB328 /* Sources */,
+				6836E61C95D1697C318F790C /* Fixtures */,
+				74C0354F987B4FC0FDE2C044 /* Tests */,
+				2F3A6B1E78F896718625FF06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+
+		2FB286088BD0BF8AE88E0D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3401EB00F554DE289BD071B /* PracticeSession.swift in Sources */,
+				25A285A2E5EAB72E7CB3F2DA /* QuestionDatabase.swift in Sources */,
+				74B7291382507053A1B2D61D /* QuestionImporter.swift in Sources */,
+				6FA88EF0AFB6B468B277D92E /* QuestionModel.swift in Sources */,
+				818E6A15ADEBAB994E52D5EC /* QuestionRepository.swift in Sources */,
+				18BD07AD9F9A4C75D2F62F27 /* SQLiteConnection.swift in Sources */,
+				6F273E1C96A84B3CCA3E266F /* SchemaSQL.swift in Sources */,
+				FB6AC62C8C9F32D2B8C09A77 /* StemHash.swift in Sources */,
+				65E706809AC17FED8B874D53 /* AppEntry.swift in Sources */,
+				A5DCE2E9B01EC6433CED4EED /* AppModel.swift in Sources */,
+				974AEDEAEBF1F6E1CE1EDE07 /* FloatingWindowManager.swift in Sources */,
+				12A9B09FBA9B1756E71B2CF8 /* QuestionCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253B7D7D35FBA95AB93123FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3401EB00F554DE289BD071B /* PracticeSession.swift in Sources */,
+				25A285A2E5EAB72E7CB3F2DA /* QuestionDatabase.swift in Sources */,
+				74B7291382507053A1B2D61D /* QuestionImporter.swift in Sources */,
+				6FA88EF0AFB6B468B277D92E /* QuestionModel.swift in Sources */,
+				818E6A15ADEBAB994E52D5EC /* QuestionRepository.swift in Sources */,
+				18BD07AD9F9A4C75D2F62F27 /* SQLiteConnection.swift in Sources */,
+				6F273E1C96A84B3CCA3E266F /* SchemaSQL.swift in Sources */,
+				FB6AC62C8C9F32D2B8C09A77 /* StemHash.swift in Sources */,
+				ECA06398C39E4D2CC4138BCA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B156C1E46BE15DE52AC798A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119BA75F1259C14648FDED65 /* sample-bank.json in Resources */,
+				05E5651CE2F810FE9B583644 /* dots.png in Resources */,
+				5FFA0F3B2CA1C04BF52E479B /* bars.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424153ED3CD079DB4DB459AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+		E3435DDA2687639586BF0B70 /* 行测刷题器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5505F9AF814A7F0992DE2402 /* Build configuration list for PBXNativeTarget "行测刷题器" */;
+			buildPhases = (
+				2FB286088BD0BF8AE88E0D78 /* Sources */,
+				424153ED3CD079DB4DB459AF /* Frameworks */,
+				B156C1E46BE15DE52AC798A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "行测刷题器";
+			productName = XingceFloater;
+			productReference = 84337AD8D27FCD69AF2C4FC2 /* XingceFloater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A700229C3AC2DAE057FE5B27 /* xingce-tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B28569972ABC6047BF58B22 /* Build configuration list for PBXNativeTarget "xingce-tests" */;
+			buildPhases = (
+				253B7D7D35FBA95AB93123FF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xingce-tests";
+			productName = xingce-tests;
+			productReference = DFDED23FA58339F9273F6C84 /* xingce-tests */;
+			productType = "com.apple.product-type.tool";
+		};
+
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "XingceFloater" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh-Hans,
+				Base,
+			);
+			mainGroup = B9340614599AB78F485950C7;
+			productRefGroup = 2F3A6B1E78F896718625FF06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3435DDA2687639586BF0B70 /* 行测刷题器 */,
+				A700229C3AC2DAE057FE5B27 /* xingce-tests */,
+			);
+		};
+
+		CF6401F2898F222B6AFE1CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		FCEA05E502403AC084EAF5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C9A154C4B544979AF5B4B5A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/XingceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.xingcefloater;
+				PRODUCT_NAME = XingceFloater;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		987BA7629EBED3E474C358C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/XingceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.xingcefloater;
+				PRODUCT_NAME = XingceFloater;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		85CE8AE713504A1E96E6B30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGNING_REQUIRED = NO;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_NAME = "xingce-tests";
+			};
+			name = Debug;
+		};
+		F0B12A50C5D249EBCF838F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGNING_REQUIRED = NO;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_NAME = "xingce-tests";
+			};
+			name = Release;
+		};
+
+		7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "XingceFloater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6401F2898F222B6AFE1CA2 /* Debug */,
+				FCEA05E502403AC084EAF5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5505F9AF814A7F0992DE2402 /* Build configuration list for PBXNativeTarget "行测刷题器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A154C4B544979AF5B4B5A5 /* Debug */,
+				987BA7629EBED3E474C358C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B28569972ABC6047BF58B22 /* Build configuration list for PBXNativeTarget "xingce-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CE8AE713504A1E96E6B30D /* Debug */,
+				F0B12A50C5D249EBCF838F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
